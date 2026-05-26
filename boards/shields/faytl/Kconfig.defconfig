@@ -1,1 +1,26 @@
+#if SHIELD_FAYTL_DONGLE
+#
+#config ZMK_KEYBOARD_NAME
+#    default "FAYTL"
+#
+#config ZMK_SPLIT_ROLE_CENTRAL
+#    default y
+#
+#endif # dongle
 
+if SHIELD_FAYTL_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "FAYTL"
+
+config ZMK_SPLIT_ROLE_CENRAL
+    default y
+
+endif #left as central
+
+if SHIELD_FAYTL_LEFT || SHIELD_FAYTL_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # LEFT || RIGHT
