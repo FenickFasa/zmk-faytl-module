@@ -13,7 +13,7 @@ if SHIELD_FAYTL_LEFT
 config ZMK_KEYBOARD_NAME
     default "FAYTL"
 
-config ZMK_SPLIT_ROLE_CENRAL
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif #left as central
