@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2026 Mike Chomitz
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include "faytl.dtsi"
 
 &kscan0 {
