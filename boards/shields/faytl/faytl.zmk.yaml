@@ -1,0 +1,11 @@
+file_format: "1"
+id: faytl
+name: FAYTL
+type: shield
+url: https://github.com/FenickFasa/zmk-faytl-module
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - faytl_left
+  - faytl_right
