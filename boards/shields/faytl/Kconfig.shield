@@ -7,5 +7,5 @@ config SHIELD_FAYTL_LEFT
 config SHIELD_FAYTL_RIGHT
     def_bool $(shields_list_contains,faytl_right)
 
-config SHIELD_FAYTL_DONGLE
-    def_bool $(shields_list_contains,faytl_dongle)
+#config SHIELD_FAYTL_DONGLE
+#    def_bool $(shields_list_contains,faytl_dongle)
