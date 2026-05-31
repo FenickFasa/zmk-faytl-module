@@ -15,14 +15,12 @@
           bindings = <
         // LEFT SIDE                                                     ENCODERS          RIGHT SIDE
         //  outer  | pinky  |  ring  | middle  | index  | inner  | |                     | |  inner |  index | middle |   ring    |   pinky  |  outer
-        //             &kp Q    &kp W    &kp E     &kp R    &kp T                              &kp Y    &kp U    &kp I    &kp O       &kp P
-        //   &kp TAB   &kp A    &kp S    &kp D     &kp F    &kp G                              &kp H    &kp J    &kp K    &kp L       &kp SEMI  &kp SQT
-        //   &kp LCTRL &kp Z    &kp X    &kp C     &kp V    &kp B       &kp Q     &kp Q        &kp N    &kp M    &kp COMMA &kp PERIOD &kp SLASH &kp ESC
+                     &kp Q    &kp W    &kp E     &kp R    &kp T                              &kp Y    &kp U    &kp I    &kp O       &kp P
+           &kp TAB   &kp A    &kp S    &kp D     &kp F    &kp G                              &kp H    &kp J    &kp K    &kp L       &kp SEMI  &kp SQT
+           &kp LCTRL &kp Z    &kp X    &kp C     &kp V    &kp B       &kp Q     &kp Q        &kp N    &kp M    &kp COMMA &kp PERIOD &kp SLASH &kp ESC
         //                                            THUMBS LEFT                       THUMBS RIGHT
         //                           |  inner  | middle | outer  | |                     | |  outer | middle |  inner |
-        //                               &kp SPACE &kp N1   &kp N2                             &kp N3   &kp N4   &kp SPACE
-
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J &kp K &kp L &kp M &kp N &kp O &kp P &kp Q &kp R &kp S &kp T &kp U &kp V &kp W &kp X &kp Y &kp Z &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J &kp K &kp L &kp M &kp N &kp O &kp P
+                                       &kp SPACE &kp N1   &kp N2                             &kp N3   &kp N4   &kp SPACE
             >;
         };
     };
